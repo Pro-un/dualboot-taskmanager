@@ -8,9 +8,6 @@ class CreateTasks < ActiveRecord::Migration[6.0]
       t.string :state
       t.date :expired_at
 
-      add_reference :tasks, :users, column: :author_id, foreign_key: true
-      add_reference :tasks, :users, column: :assignee_id, foreign_key: true
-
       t.timestamps
     end
   end
