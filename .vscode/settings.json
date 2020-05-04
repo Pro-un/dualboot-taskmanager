@@ -1,0 +1,15 @@
+{
+  "sqltools.connections": [
+    {
+      "database": "task_manager_development",
+      "dialect": "PostgreSQL",
+      "isActive": false,
+      "isConnected": false,
+      "name": "localhost",
+      "password": "postgres",
+      "port": 5432,
+      "server": "localhost",
+      "username": "postgres"
+    }
+  ]
+}
