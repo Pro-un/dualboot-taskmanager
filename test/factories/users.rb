@@ -1,10 +1,13 @@
 FactoryBot.define do
   factory :user do
-    first_name { "MyString" }
-    last_name { "MyString" }
-    password { "" }
-    email { "MyString" }
-    avatar { "MyString" }
-    type { "" }
+    sequence :email do |n|
+      "test#{n}@test.test"
+    end
+
+    first_name { "Ivan" }
+    last_name { "Ivanov" }
+    password { "123456" }
+    avatar {  }
+    type { "Manager" }
   end
 end
