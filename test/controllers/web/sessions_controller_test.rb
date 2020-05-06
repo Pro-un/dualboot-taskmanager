@@ -6,6 +6,7 @@ class Web::SessionsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+<<<<<<< HEAD
   test "should post create" do
     password = generate(:string)
     user = create(:user, { password: password })
@@ -21,4 +22,6 @@ class Web::SessionsControllerTest < ActionController::TestCase
     delete :destroy
     assert_response :redirect
   end
+=======
+>>>>>>> add controllers, tests, factories
 end
