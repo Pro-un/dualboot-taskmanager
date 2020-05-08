@@ -4,10 +4,10 @@ FactoryBot.define do
       "test#{n}@test.test"
     end
 
-    first_name { "Ivan" }
-    last_name { "Ivanov" }
-    password { "123456" }
-    avatar {  }
-    type { "Manager" }
+    first_name { 'Ivan' }
+    last_name { 'Ivanov' }
+    password { '123456' }
+    avatar {}
+    type { 'Manager' }
   end
 end

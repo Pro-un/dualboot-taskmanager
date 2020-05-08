@@ -10,8 +10,7 @@ FactoryBot.define do
 
     author_id { 3 }
     assignee_id { 1 }
-    state {  }
+    state {}
     expired_at { 2.week.ago }
-
   end
 end
