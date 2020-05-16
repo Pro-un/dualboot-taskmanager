@@ -1,5 +1,6 @@
 class Web::SessionsController < Web::ApplicationController
   def new
+<<<<<<< HEAD
     @session = SessionForm.new
   end
 
@@ -23,5 +24,7 @@ class Web::SessionsController < Web::ApplicationController
 
   def session_params
     params.require(:session_form).permit(:email, :password)
+=======
+>>>>>>> add controllers, tests, factories
   end
 end
